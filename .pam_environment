@@ -1,0 +1,29 @@
+# wayland configuration
+
+#QT_QPA_PLATFORM   DEFAULT=wayland
+#GTK_BACKEND       DEFAULT=wayland
+#CULTTER_BACKEND   DEFAULT=wayland
+#SDL_VIDEODRIVER   DEFAULT=wayland
+
+#XDG_SESSION_TYPE     DEFAULT=wayland
+#XDG_SESSION_DESKTOP  DEFAULT=sway
+#XDG_CURRENT_DESKTOP  DEFAULT=sway
+
+# Firefox wayland support
+#MOZ_ENABLE_WAYLAND=1
+#MOZ_WEBRENDER=1
+
+# Vulkan render
+WLR_RENDERER=vulkan
+# Opengl render
+#WLR_RENDERER=gles2
+
+# Fcitx config
+GTK_IM_MODULE DEFAULT=fcitx
+QT_IM_MODULE  DEFAULT=fcitx
+XMODIFIERS    DEFAULT=@im=fcitx
+INPUT_METHOD  DEFAULT=fcitx
+SDL_IM_MODULE DEFAULT=fcitx
+GLFW_IM_MODULE DEFAULT=ibus
+
+export PATH=$PATH:/home/imethan/Apps/openjdk-17.0.2/bin:/home/imethan/Apps/idea-community-2022.3/bin
