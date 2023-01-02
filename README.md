@@ -23,6 +23,7 @@ I have used it in a while, and now it can meet my most daily needs.
 These are some screen shoot in my PC:
 
 ![Desktop](screenshot/screenshot-desktop.png)
+![Kitty](screenshot/screenshot-kitty.png)
 ![Chromium](screenshot/screenshot-Chromium.png)
 ![Intellij](screenshot/screenshot-Intellij-IDEA.png)
 

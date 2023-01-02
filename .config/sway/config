@@ -264,6 +264,6 @@ exec wl-paste -t text --watch clipman store --no-persist
 
 font pango:Dejavu Sans Mono 14px, Font Awesome 6
 
-for_window [title=".*_bilibili - Chromium"] inhibit_idle visible
+for_window [title=".*_bilibili - Chromium"] inhibit_idle focus
 
 #include /etc/sway/config.d/*
